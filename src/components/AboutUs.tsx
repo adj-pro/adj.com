@@ -25,7 +25,7 @@ export default function AboutUs() {
           <h2 className="text-orange-950 font-semibold text-4xl text-center lg:text-start tracking-wide leading-tight">Descubra a Excelência Tecnológica com a ADJ Pro!</h2>
           <p className="text-orange-950 text-center lg:text-justify px-4 md:px-0">Na ADJ Pro, a excelência é o nosso compromisso. Nossa missão é fornecer soluções tecnológicas personalizadas, projetadas sob medida para atender às necessidades exclusivas do seu negócio.</p>
         </div>
-        <div className="max-w-[661px] w-full flex flex-col space-y-4 justify-center items-center">
+        <div className="max-w-[661px] w-full flex flex-col space-y-4 justify-center items-center px-6">
           <img src={macbook} alt="MacBook Pro" />
         </div>
       </div>
