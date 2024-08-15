@@ -1,4 +1,5 @@
 import { Computer, HeartHandshakeIcon } from "lucide-react";
+import { macbook } from "../assets";
 
 export default function AboutUs() {
   return (
@@ -16,6 +17,16 @@ export default function AboutUs() {
           <HeartHandshakeIcon className="text-orange-800 size-16"/>
           <span className="text-orange-800 font-semibold text-lg text-center">Parceria de Confiança</span>
           <p className="text-orange-950 text-center">Construímos relacionamentos sólidos com nossos clientes, baseados em confiança, transparência e integridade. Estamos comprometidos em ser seu parceiro de confiança.</p>
+        </div>
+      </div>
+
+      <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-14 mt-56">
+        <div className="max-w-[633px] w-full  flex flex-col space-y-4 justify-center items-center">
+          <h2 className="text-orange-950 font-semibold text-4xl text-center lg:text-start tracking-wide leading-tight">Descubra a Excelência Tecnológica com a ADJ Pro!</h2>
+          <p className="text-orange-950 text-center lg:text-justify px-4 md:px-0">Na ADJ Pro, a excelência é o nosso compromisso. Nossa missão é fornecer soluções tecnológicas personalizadas, projetadas sob medida para atender às necessidades exclusivas do seu negócio.</p>
+        </div>
+        <div className="max-w-[661px] w-full flex flex-col space-y-4 justify-center items-center">
+          <img src={macbook} alt="MacBook Pro" />
         </div>
       </div>
     </section>
