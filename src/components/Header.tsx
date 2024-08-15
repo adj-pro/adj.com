@@ -10,9 +10,9 @@ export default function Header() {
     setShowMenu(!showMenu)
   }
   return (
-    <header className="max-w-[1613px] mx-auto w-full flex justify-between items-center py-14 px-10">
+    <header className="relative z-50 max-w-[1613px] mx-auto w-full flex justify-between items-center py-14 px-10">
       <Logo />
-      <button onClick={onShowMenu} className="md:hidden active:scale-95 transition-all">
+      <button onClick={onShowMenu} className="relative z-50 md:hidden active:scale-95 transition-all">
         {showMenu ? <X className="size-8"/> : <Menu className="size-8"/>}
       </button>
       <nav className="hidden md:flex items-center gap-6">
