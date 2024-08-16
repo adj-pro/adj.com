@@ -3,7 +3,7 @@ import { macbook } from "../assets";
 
 export default function AboutUs() {
   return (
-    <section className="mt-28 max-w-[1613px] mx-auto w-full flex justify-center items-center flex-col">
+    <section id="about-us" className="mt-28 max-w-[1613px] mx-auto w-full flex justify-center items-center flex-col">
       <h2 className="text-2xl md:text-5xl font-bold text-orange-950">Por que nos escolher?</h2>
       <p className="max-w-[560px] text-lg w-full text-orange-950 text-center mt-4">Nossa dedicação à excelência tecnológica e ao sucesso de nossos clientes nos destaca no mercado de TI.</p>
 
@@ -20,7 +20,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-14 mt-56">
+      <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-14 mt-56 px-8">
         <div className="max-w-[633px] w-full  flex flex-col space-y-4 justify-center items-center">
           <h2 className="text-orange-950 font-semibold text-4xl text-center lg:text-start tracking-wide leading-tight">Descubra a Excelência Tecnológica com a ADJ Pro!</h2>
           <p className="text-orange-950 text-center lg:text-justify px-4 md:px-0">Na ADJ Pro, a excelência é o nosso compromisso. Nossa missão é fornecer soluções tecnológicas personalizadas, projetadas sob medida para atender às necessidades exclusivas do seu negócio.</p>
