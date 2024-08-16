@@ -9,10 +9,10 @@ export default function Footer() {
           <span className="font-bold text-white">Navegação</span>
           <div className="flex flex-col gap-4">
             <a href="/" className="text-slate-400">Página Inicial</a>
-            <a href="/" className="text-slate-400">Sobre Nós</a>
-            <a href="/" className="text-slate-400">Serviços</a>
-            <a href="/" className="text-slate-400">Projetos</a>
-            <a href="/" className="text-slate-400">Contacte-nos</a>
+            <a href="#about-us" className="text-slate-400">Sobre Nós</a>
+            <a href="#services" className="text-slate-400">Serviços</a>
+            <a href="#partners" className="text-slate-400">Parceiros</a>
+            <a href="#contact-us" className="text-slate-400">Contacte-nos</a>
           </div>
         </div>
         <div className="flex flex-col gap-6">
