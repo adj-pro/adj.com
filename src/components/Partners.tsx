@@ -2,7 +2,7 @@ import { Cake, Cpu, Goal, TreeDeciduous } from "lucide-react";
 
 export default function Partners() {
   return (
-    <section id="partners" className="mt-28 max-w-[1613px] mx-auto w-full flex justify-center items-center flex-col">
+    <section id="partners" className="my-28 max-w-[1613px] mx-auto w-full flex justify-center items-center flex-col">
       <h2 className="text-2xl md:text-5xl font-bold text-orange-950">Nossos Parceiros</h2>
       <p className="max-w-[560px] text-lg w-full text-orange-950 text-center mt-4">Nossos parceiros de longas datas.</p>
 
