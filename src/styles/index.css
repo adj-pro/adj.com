@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  min-width: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  background-color: #fff;
+}
+
+input {
+  color-scheme: dark;
+}
