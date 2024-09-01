@@ -1,8 +1,9 @@
 import Button from "./Button";
 
 export default function Services() {
+  const show = false
   return (
-    <section id="services" className="bg-slate-800 p-20 flex flex-col justify-center items-center">
+    <section data-show={show} id="services" className="bg-slate-800 p-20 flex flex-col justify-center items-center data-[show=false]:hidden">
       <h2 className="text-4xl font-bold text-white">Sistema de Faturação</h2>
       <p className="text-center text-slate-400 mt-2">Facíl, rapído e modernos</p>
       <div className="w-full mt-20 flex gap-10 flex-wrap justify-center items-center">

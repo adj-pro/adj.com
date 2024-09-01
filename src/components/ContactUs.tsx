@@ -1,8 +1,9 @@
 import { Mail, MapPin, MapPinnedIcon, Phone } from "lucide-react";
 import Button from "./Button";
 import Input from "./Input";
-import { facebookOrange } from "../assets";
 import { FormEvent } from "react";
+import { FaFacebook } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 export default function ContactUs() {
 
@@ -71,14 +72,11 @@ export default function ContactUs() {
           </div>
 
           <div className="flex gap-6 items-center">
-            <a href="/" target="_blank">
-              <img src={facebookOrange} alt="" className="rounded-md" />
+            <a href="/" target="_blank" className="text-orange-800 hover:text-blue-600 active:scale-[.98] transition-all scroll-smooth">
+              <FaFacebook size={24} />
             </a>
-            <a href="/" target="_blank">
-              <img src={facebookOrange} alt="" className="rounded-md" />
-            </a>
-            <a href="/" target="_blank">
-              <img src={facebookOrange} alt="" className="rounded-md" />
+            <a href="https://wa.me/244935476076" target="_blank" className="text-orange-800 hover:text-green-600 active:scale-[.98] transition-all scroll-smooth">
+              <IoLogoWhatsapp size={24} />
             </a>
           </div>
         </div>

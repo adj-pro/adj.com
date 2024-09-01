@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { facebook } from "../assets";
 import Logo from "./Logo";
 import { Menu, X } from "lucide-react";
+import { FaFacebook } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 
 export default function Header() {
@@ -43,11 +44,11 @@ export default function Header() {
       </nav>
       )}
       <div className="hidden lg:flex items-center gap-6">
-        <a href="/" target="_blank" className="hover:text-orange-400 active:scale-[.98] transition-all scroll-smooth">
-          <img src={facebook} alt="Facebook icon" />
+        <a href="/" target="_blank" className="hover:text-blue-600 active:scale-[.98] transition-all scroll-smooth">
+          <FaFacebook size={24} />
         </a>
-        <a href="#contact-us" target="_blank" className="hover:text-orange-400 active:scale-[.98] transition-all scroll-smooth">
-          <img src={facebook} alt="Facebook icon" />
+        <a href="https://wa.me/244935476076" target="_blank" className="hover:text-green-600 active:scale-[.98] transition-all scroll-smooth">
+          <IoLogoWhatsapp size={24} />
         </a>
 
       </div>

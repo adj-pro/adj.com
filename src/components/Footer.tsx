@@ -1,5 +1,6 @@
 import { MapPin, Phone } from "lucide-react";
-import { facebook } from "../assets";
+import { FaFacebook  } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 export default function Footer() {
   return (
@@ -43,14 +44,11 @@ export default function Footer() {
           </span>
 
           <div className="flex gap-6 items-center">
-            <a href="/" target="_blank">
-              <img src={facebook} alt="" className="" />
+            <a href="/" target="_blank" className="hover:text-blue-600 active:scale-[.98] transition-all scroll-smooth">
+              <FaFacebook size={24} />
             </a>
-            <a href="/" target="_blank">
-              <img src={facebook} alt="" className="" />
-            </a>
-            <a href="/" target="_blank">
-              <img src={facebook} alt="" className="" />
+            <a href="https://wa.me/244935476076" target="_blank" className="hover:text-green-600 active:scale-[.98] transition-all scroll-smooth">
+              <IoLogoWhatsapp size={24} />
             </a>
           </div>
         </div>
